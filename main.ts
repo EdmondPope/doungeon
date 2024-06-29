@@ -817,7 +817,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
                 `, mySprite, 0, 50)
         }
     }
-    pause(100)
+    pause(200)
     sprites.destroy(projectile)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
